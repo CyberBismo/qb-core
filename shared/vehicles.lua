@@ -1,6 +1,7 @@
 QBShared = QBShared or {}
 
 QBShared.Vehicles = {
+	--### GROUND ###--
 	-- AUDI
 	['rmodrs7'] = {
 		['name'] = 'RS7 Sportback',
@@ -834,4 +835,36 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
 	
+	--### END OF GROUND ###--
+	--### AIR ###--
+	-- Drones --
+
+	--### END OF AIR ###--
+	--### WATER ###--
+	-- Boats --
+	['magurav5'] = {
+		['name'] = 'V5 USV',
+		['brand'] = 'Magura',
+		['model'] = 'magurav5',
+		['price'] = 1000,
+		['category'] = 'Boats',
+		['categoryLabel'] = 'Boats',
+		['hash'] = `magurav5`,
+		['shop'] = 'water',
+	},
+
+	-- Yachts --
+	-- Yaluxe (not enterable after exiting area)
+	--['yaluxe'] = {
+	--	['name'] = 'Super Yacht',
+	--	['brand'] = 'Galaxy',
+	--	['model'] = 'yaluxe',
+	--	['price'] = 1000,
+	--	['category'] = 'Yachts',
+	--	['categoryLabel'] = 'Yachts',
+	--	['hash'] = `yaluxe`,
+	--	['shop'] = 'water',
+	--},
+	
+	--### END OF WATER ###--
 } -- DO NOT REMOVE THIS LINE --
